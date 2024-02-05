@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Lab Task#06</title>
+</head>
+
+<!--Styling-->
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .wholebody {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  body {
+    background-image: url(https://www.nei.edu.pk/wp-content/uploads/2021/04/BLP13.jpg);
+    background-repeat: no-repeat;
+  }
+
+  .text {
+    color: white;
+    padding-top: 150px;
+
+  }
+
+  .nei {
+    font-weight: 900;
+    font-size: 40px;
+  }
+
+  .quality-education {
+    font-size: 40px;
+    font-weight: 50;
+  }
+
+  .formargin {
+    margin: 20px 25px 0 20px;
+  }
+
+  .box {
+    height: 325px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px 50px;
+    margin: 20px;
+    
+    float: right;
+  }
+
+  .begining-of-future {
+    text-align: center;
+  }
+
+  .heading-of-begining-of-future {
+    color: red;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  form {
+    margin: 20px;
+  }
+
+  .name-input {
+    height: 40px;
+    width: 230px;
+    padding: 0 20px;
+    border: 1px solid #ccc;
+    color: #7a7272;
+    margin-bottom: 20px;
+  }
+
+  #message {
+    padding-top: 10px;
+  }
+
+  #submit-button {
+    background-color: red;
+    color: white;
+    height: 40px;
+    border: none;
+    width: 275px;
+  }
+
+  #contact-button {
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    border: none;
+    width: 125px;
+    height: 50px;
+    border-radius: 3px;
+
+  }
+
+  footer {
+    background-color: #E81D3A;
+    padding-bottom: 20px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  table {
+    padding-top: 0px;
+    border: 1px;
+    color: #ffffff;
+    font-size: 20px;
+    align-items: center;
+    width: 100%;
+  }
+</style>
+
+<!--Body Program-->
+
+<body>
+  <div class="wholebody">
+
+    <div class="formargin">
+
+      <!--Message Form-->
+
+      <div class="box">
+        <p class="begining-of-future">Your Future Begins Here!</p>
+
+        <p class="heading-of-begining-of-future">Get in Touch!</p>
+
+        <form action="">
+          <input type="text" class="name-input" placeholder="Enter Name">
+          <input type="email" class="name-input" placeholder="Email">
+          <input type="number" class="name-input" placeholder="Phone No.">
+          <textarea type="textarea" class="name-input" id="message" placeholder="Message.."></textarea>
+          <input type="submit" id="submit-button" value="Submit Message">
+        </form>
+      </div>
+
+      <!--Side Text-->
+
+      <div class="text">
+
+        <span class="nei">NATIONAL EXCELLENCE INSTITUTE</span>
+        <br>
+        <br>
+        <p class="quality-education">
+          Quality education with access and equity for developing human capital.
+        </p>
+        <br>
+        <input type="button" value="Contact" id="contact-button">
+      </div>
+
+    </div>
+
+  </div>
+
+<!--Footer-->
+  <footer>
+    <div class="Table">
+      <table>  
+        <tr>
+          <td rowspan="2" width="80px" align="center">
+            <img src="https://www.nei.edu.pk/wp-content/uploads/elementor/thumbs/IC0123-pqn8a4lygb2ypu57982gf3n3yhs5g75afy5a0odad4.png" alt="NEI Book Logo">
+            
+          </td>
+          <td colspan="2" height="25px" width="325px">
+            <b>NEI</b>
+          </td>
+
+          <td></td>
+
+          <td rowspan="2" width="80px" align="center">
+            <img src="https://www.nei.edu.pk/wp-content/uploads/elementor/thumbs/IC3210-pqn8a4lycss3fbog1soyj6ln3tbk24nbs30ow01wqm.png" alt="Commitment Logo">
+          </td>
+          <td height="50px" width="325px">
+            <b>Commitment</b>
+          </td>
+
+          <td></td>
+
+          <td rowspan="2" width="80px" align="center">
+            <img src="https://www.nei.edu.pk/wp-content/uploads/elementor/thumbs/09IC6-pqn8a3o49h1oe86kepntulvnd3ws8i1k3thsjeeojc.png" alt="Promise Logo">
+          </td>
+          <td colspan="2" width="325px">
+            <b>Promise</b>
+          </td>
+        </tr>
+        <!--Logo Discription Column-->
+        <tr>
+          <td colspan="2" width="0">
+            <p>
+              A community of lifelong learners and
+              <br>
+              champions of our own success.
+            </p>
+          </td>
+
+          <td></td>
+
+          <td>
+            <p>
+              To educate students so they may grow
+              <br>
+              towards responsible global citizenship.
+            </p>
+          </td>
+
+          <td></td>
+
+          <td colspan="2">
+            <p>
+              We ensure every student achieves
+              <br>
+              academically, socially, and emotionally.
+            </p>
+
+          </td>
+
+        </tr>
+
+      </table>
+
+    </div>
+
+  </footer>
+
+
+
+</body>
+
+</html>
